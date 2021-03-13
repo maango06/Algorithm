@@ -8,4 +8,4 @@
 
 + 백준
 > 17609 [회문][17609_link]
-[17609_link]:https://www.acmicpc.net/problem/17609
+[17609_link]: https://www.acmicpc.net/problem/17609
