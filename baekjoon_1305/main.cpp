@@ -5,63 +5,44 @@
 using namespace std;
 #define f(i, a, b) for(int i = int(a); i < int(b); ++i)
 
-vector <char> ad, words;
+int SIZE, WORD_SIZE = 1;
+char AD[1000001], words[1000001];
 
-char moving(vector <char> _words, int _num) {
-	return _words[_num % _words.size()];
+char moving(int _num) {
+	return words[_num % WORD_SIZE];
 }
 
-int checking(vector <char> _ad, vector <char> _words) {
-	int i = _words.size();
-	while (i != _ad.size()) {
-		cout << _ad[i] << " : " << moving(_words, i) << endl;
-		if (_ad[i] != moving(_words, i))
+int checking() {
+	int i = WORD_SIZE;
+	while (i < SIZE) {
+		if (AD[i] != moving(i))
 			break;
 		i++;
 	}
-	cout << "return i : " << i << endl;
 	return i;
 }
 
 int main() {
+	cin >> SIZE;
+	cin >> AD;
 
-	int size;
-	cin >> size;
-	cout << "size : " << size << endl;
-	ad.reserve(size);
-	cin.get();
-	f(i, 0, size) {
-		ad.push_back(cin.get());
-		cout << "testing " << i << endl;
-	}
-
-	f(i, 0, ad.size()) {
-		cout << ad[i] << endl;
-	}
-
-	cout << "size : " << size << " : " << ad.size() << endl;
-
-	words.push_back(ad[0]);
-	f(i, 1, size) {
-		cout << "현재 i : " << i << endl;
-		cout << "checking 시작" << endl;
-		cout << "words : ";
-		f(j, 0, words.size())
-			cout << words[j];
-		cout << endl;
-
-		int temp = checking(ad, words);
-		if (temp == ad.size())
+	words[0] = AD[0];
+	int i = 1;
+	while(true) {
+		int temp = checking();
+		if (temp == SIZE)
 			break;
 		else {
+			temp -= temp % WORD_SIZE;
 			f(j, i, temp + 1) {
-				words.push_back(ad[j]);
+				words[j] = AD[j];
+				WORD_SIZE++;
+				i++;
 			}
 		}
-		cout << "-------------------" << endl;
 	}
 
-	cout << words.size();
+	cout << WORD_SIZE;
 
 	return 0;
 }
