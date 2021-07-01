@@ -36,14 +36,8 @@ int main()
 		}
 	}
 
-	int max = 0;
-	for (int i = 0; i < B.size(); ++i) {
-		for (int j = 0; j < A.size(); ++j) {
-			if (table[i][j] > max)
-				max = table[i][j];
-		}
-	}
-	cout << max;
+	cout << table[B.size() - 1][A.size() - 1];
+	
 
 	return 0;
 }
