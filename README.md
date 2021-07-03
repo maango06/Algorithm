@@ -15,4 +15,5 @@
 > 2206 [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) - [source_code](baekjoon_2206/main.cpp)  
 > 9251 [LCS](https://www.acmicpc.net/problem/9251) - [source_code](baekjoon_9251/main.cpp)  
 > 1987 [알파벳](https://www.acmicpc.net/problem/1987) - [source_code](baekjoon_1987/main.cpp)  
-> 17298 [오큰수](https://www.acmicpc.net/problem/17298) - [source_code](baekjoon_17298/main.cpp)
+> 17298 [오큰수](https://www.acmicpc.net/problem/17298) - [source_code](baekjoon_17298/main.cpp)  
+> 1806 [부분합](https://www.acmicpc.net/problem/1806) - [source_code](baekjoon_1806/main.cpp)
