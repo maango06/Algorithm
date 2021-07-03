@@ -20,17 +20,17 @@ int main()
 	for (int i = 0; i < N; ++i)
 		cin >> TABLE[i];
 	
-	int fst = 0, end = 0, now = TABLE[0], ans = 100001;
+	int left = 0, right = 0, now = TABLE[0], ans = 100001;
 
-	while (end != N) {
+	while (right != N) {
 		if (now < S) {
-			++end;
-			now += TABLE[end];
+			++right;
+			now += TABLE[right];
 		}
 		else {
-			ans = min(ans, end - fst + 1);
-			now -= TABLE[fst];
-			++fst;
+			ans = min(ans, right - left + 1);
+			now -= TABLE[left];
+			++left;
 		}
 	}
 
