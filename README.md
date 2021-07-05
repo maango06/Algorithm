@@ -17,4 +17,5 @@
 > 1987 [알파벳](https://www.acmicpc.net/problem/1987) - [source_code](baekjoon_1987/main.cpp)  
 > 17298 [오큰수](https://www.acmicpc.net/problem/17298) - [source_code](baekjoon_17298/main.cpp)  
 > 1806 [부분합](https://www.acmicpc.net/problem/1806) - [source_code](baekjoon_1806/main.cpp)  
-> 2580 [스도쿠](https://www.acmicpc.net/problem/2580) - [source_code](baekjoon_2580/main.cpp)
+> 2580 [스도쿠](https://www.acmicpc.net/problem/2580) - [source_code](baekjoon_2580/main.cpp)  
+> 2042 [구간 합 구하기](https://www.acmicpc.net/problem/2042) - [source_code](baekjoon_2042/main.cpp)
