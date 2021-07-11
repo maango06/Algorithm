@@ -22,4 +22,5 @@
 > 1062 [가르침](https://www.acmicpc.net/problem/1062) - [source_code](baekjoon_1062)  
 > 1103 [게임](https://www.acmicpc.net/problem/1103) - [source_code](baekjoon_1103)  
 > 1655 [가운데를 말해요](https://www.acmicpc.net/problem/1655) - [source_code](baekjoon_1655)  
-> 7453 [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) - [source_code](baekjoon_7453)
+> 7453 [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) - [source_code](baekjoon_7453)  
+> 1202 [보석 도둑](https://www.acmicpc.net/problem/1202) - [source_code](baekjoon_1202)
