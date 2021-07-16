@@ -26,4 +26,5 @@
 > 1202 [보석 도둑](https://www.acmicpc.net/problem/1202) - [source_code](baekjoon_1202)  
 > 1717 [집합의 표현](https://www.acmicpc.net/problem/1717) - [source_code](baekjoon_1717)  
 > 12015 [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) - [source_code](baekjoon_12015)  
-> 2252 [줄 세우기](https://www.acmicpc.net/problem/2252) - [source_code](baekjoon_2252)
+> 2252 [줄 세우기](https://www.acmicpc.net/problem/2252) - [source_code](baekjoon_2252)  
+> 14003 [가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003) - [source_code](baekjoon_14003)
