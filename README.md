@@ -27,4 +27,5 @@
 > 1717 [집합의 표현](https://www.acmicpc.net/problem/1717) - [source_code](baekjoon_1717)  
 > 12015 [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) - [source_code](baekjoon_12015)  
 > 2252 [줄 세우기](https://www.acmicpc.net/problem/2252) - [source_code](baekjoon_2252)  
-> 14003 [가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003) - [source_code](baekjoon_14003)
+> 14003 [가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003) - [source_code](baekjoon_14003)  
+> 4195 [친구 네트워크](https://www.acmicpc.net/problem/4195) - [source_code](baekjoon_4195)
